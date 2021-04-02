@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+html,
+body,
+.App {
+  margin: 0;
+  font-family: "Patrick Hand", cursive;
+}
+.App {
+  background-image: url(./assets/wallpaper.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  padding: 20px;
+  > div {
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(#000, 0.25);
+    color: white;
+  }
+}
